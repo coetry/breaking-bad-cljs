@@ -3,9 +3,7 @@
 ## Install + Run
 
 ``` shell
-yarn install
-
-yarn watch
+yarn && yarn watch
 ```
 
 ## Clean
