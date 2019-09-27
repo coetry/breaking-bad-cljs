@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "repl": "shadow-cljs cljs-repl app",
+    "watch": "shadow-cljs watch app;",
+    "release": "shadow-cljs release app;",
+    "build": "shadow-cljs release app;",
+    "server": "shadow-cljs server;",
+    "clean": "rm -rf target; rm -rf public/js/compiled",
+    "deploy": "npm run build; cd public; now -n breaking-bad-cljs --prod"
+  },
+  "dependencies": {
+    "create-react-class": "^15.6.2",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "shadow-cljs": "^2.0.80"
+  }
+}
