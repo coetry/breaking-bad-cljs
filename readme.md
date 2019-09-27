@@ -1,4 +1,4 @@
-# {{Breaking Bad Quotes CLJS}}
+# Breaking Bad Quotes CLJS
 
 ## Install + Run
 
@@ -14,10 +14,10 @@ yarn watch
 yarn clean
 ```
 
-## Release
+## Build 
 
 ``` shell
-yarn release
+yarn build 
 ```
 
 ## Deploy to ZEIT Now
